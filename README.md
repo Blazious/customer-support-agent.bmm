@@ -62,6 +62,12 @@ The project follows a modular architecture with the following components:
    TOP_K=6
    MAX_CONTEXT_CHARS=12000
    ```
+   
+   **⚠️ IMPORTANT: You MUST get your own Google Gemini API key:**
+   - Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Sign in with your Google account
+   - Create a new API key
+   - **Never share your API key or commit it to version control**
 
 ## 🔧 Setup
 
@@ -200,10 +206,13 @@ For technical support or questions about the SureLife Agent:
 
 ## 🔐 Security Notes
 
-- Never commit your `.env` file or API keys
-- Keep your Gemini API key secure
-- Regularly rotate API keys
-- Monitor API usage and costs
+- **Never commit your `.env` file or API keys**
+- **Keep your Gemini API key secure and private**
+- **Each user must get their own API key from Google AI Studio**
+- **Never share your API key with others**
+- **Regularly rotate API keys for security**
+- **Monitor API usage and costs in your Google Cloud Console**
+- **Your API key gives access to your billing account - keep it safe!**
 
 ---
 
